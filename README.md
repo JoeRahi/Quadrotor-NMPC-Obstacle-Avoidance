@@ -55,11 +55,13 @@ addpath(genpath('casadi-<version>-matlab'))
 ```
 
 
-Clone this repository:
+4. Clone this repository:
 ```matlab
-git clone https://github.com/<your-username>/NMPC-Quadrotor.git
+git clone https://github.com/JoeRahi/NMPC-Quadrotor.git
 ```
+5. Open MATLAB and set the cloned folder as the working directory.
 
-##⚖️ License
+
+## ⚖️ License
 
 This project is released under the MIT License – see LICENSE for details.
