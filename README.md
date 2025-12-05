@@ -52,10 +52,13 @@ The proposed NMPC controller successfully guides a quadrotor to its goal while s
 
 ```matlab
 addpath(genpath('casadi-<version>-matlab'))
+```
+
+
 Clone this repository:
-
+```matlab
 git clone https://github.com/<your-username>/NMPC-Quadrotor.git
-
+```
 
 ##⚖️ License
 
