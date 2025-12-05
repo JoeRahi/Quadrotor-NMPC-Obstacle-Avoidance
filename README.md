@@ -53,4 +53,4 @@ The proposed NMPC controller successfully guides a quadrotor to its goal while s
 
 ## ⚖️ License
 
-This project is released under the MIT License – see LICENSE for details.
+This project is released under the MIT License.
