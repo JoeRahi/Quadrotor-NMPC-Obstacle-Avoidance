@@ -68,8 +68,9 @@ The proposed NMPC controller successfully guides a quadrotor to its goal while s
 
 ### NMPC Formulation
 
-- **Prediction Horizon:** Prediction Horizon: N = 10 steps with sampling time Δt = 0.15 s
-- **Cost function:** state-tracking, control effort, control-rate smoothing  
+- **Prediction Horizon:** N = 10 steps  
+- **Sampling time:** Δt = 0.15 s
+- **Cost function:** state tracking, control effort minimization, control rate smoothing 
 - Obstacle avoidance with exponential barrier functions  
 - **Actuator & state constraints:**
   - Rotor thrust limits  
