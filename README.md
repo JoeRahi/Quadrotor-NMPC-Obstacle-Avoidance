@@ -39,7 +39,7 @@ The proposed NMPC controller successfully guides a quadrotor to its goal while s
 
 ---
 
-### Control Inputs (Thrust)
+### Control Inputs (normalized rotor thrust commands)
 
 <p align="center">
   <img src="Thrust_time.PNG" width="500"/>
