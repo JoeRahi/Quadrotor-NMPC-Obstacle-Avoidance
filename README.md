@@ -52,6 +52,7 @@ The proposed NMPC controller successfully guides a quadrotor to its goal while s
 <p align="center">
   <img src="distance_obs.PNG" width="500"/>
 </p>
+
 ---
 
 ## 🏗️ Technical Architecture
@@ -63,9 +64,11 @@ The proposed NMPC controller successfully guides a quadrotor to its goal while s
 - Force coupling  
 - Euler-angle kinematics  
 
+---
+
 ### NMPC Formulation
 
-- **Horizon:** `N = # steps (~# s)`  
+- **Prediction Horizon:** \( N = 10 \) steps with sampling time \( \Delta t = 0.15 \, s \)
 - **Cost function:** state-tracking, control effort, control-rate smoothing  
 - Obstacle avoidance with exponential barrier functions  
 - **Actuator & state constraints:**
