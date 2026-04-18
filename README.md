@@ -24,16 +24,16 @@ The proposed NMPC controller successfully guides a quadrotor to its goal while s
 ## 📈 Simulation Results
 
 ### 3D Trajectory
-![Quadrotor Trajectory](nmpc_quadrotor.PNG)
+<img src="nmpc_quadrotor.PNG" width="400">
 
 ### Position vs Time
-![Position Tracking](position_time.PNG)
+<img src="position_time.PNG" width="400">
 
 ### Control Inputs (Thrust)
-![Thrust Inputs](Thrust_time.PNG)
+<img src="Thrust_time.PNG" width="400">
 
 ### Minimum Distance to Obstacles
-![Obstacle Distance](distance_obs.PNG)
+<img src="distance_obs.PNG" width="400">
 
 ---
 
