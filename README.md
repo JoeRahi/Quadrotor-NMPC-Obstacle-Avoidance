@@ -40,7 +40,7 @@ The proposed NMPC controller successfully guides a quadrotor to its goal while s
 ---
 
 ### Control Inputs (normalized rotor thrust commands)
-
+The control inputs are dimensionless thrust commands normalized around the hover equilibrium; physical thrust values in Newtons are obtained internally through the actuator model and thrust coefficient.
 <p align="center">
   <img src="Thrust_time.PNG" width="500"/>
 </p>
